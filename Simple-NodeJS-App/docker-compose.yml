@@ -1,0 +1,6 @@
+version: '2.6'
+services:
+  node-app:
+    build: .
+    ports:
+      - "8000:8080"
